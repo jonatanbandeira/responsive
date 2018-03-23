@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+	<head class="black">
+	<meta charset="utf-8">
+	<html lang="pt-br">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Jonatan Bandeira</title>
+	<link rel="shortcut icon" href="http://www.iconj.com/ico/2/7/270xmn9mc8.ico" type="image/x-icon" />
+	<link rel="stylesheet" type="text/css" href="contact.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="wrapper">
+		<header>
+			<nav>
+				<div class="menu-icon">
+					<i class="fa fa-bars fa-2x"></i>
+				</div>
+				<div class="logo"><a href="#">
+					JONATANBANDEIRA</a>
+				</div>
+				<div class="menu">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About me</a></li>
+						<li><a href="blog.html">Social</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</div>
+			</nav>
+			
+		</header>
+		<div class="content">
+			<body>
+			<h2>Método alternativo de contato</h2>
+					<p>Caso não consiga me contatar por dois dias acima, possivelmente eu estarei em uma ilha deserta em algum lugar do pacífico. Neste caso há duas possibilidades:</p>
+					<ol>
+						<li>Enviar uma mensagem em uma garrafa</li>
+						<li>Tentar sinal de fumaça</li>
+					</ol>
+					<p>Mas sinceramente não sei se algum desses métodos será eficiente, tente por sua conta em risco :D</p>
+
+			<div class="coluna col7 contato">
+				<li>Envie sua mensagem</li>
+				<form action="">
+					<label for="nome">Seu nome:</label>
+					<input type="text" name="nome" id="nome" />
+					<label for="email">Seu email:</label>
+					<input type="text" name="email" id="email" />
+					<label for="assunto">Assunto:</label>
+					<input type="text" name="assunto" id="assunto" />
+					<label for="nome">Sugestões sobre nosso site:</label>
+					<textarea name="mensagem" id="mensagem"></textarea>
+					<label for="nome">Observações:</label>
+					<textarea name="mensagem" id="mensagem"></textarea>
+					<input type="submit" class="botao" id="enviar" value="Enviar mensagem &raquo;" />
+				</form>
+			</div>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+		</div>
+	</div>
+	</div>
+	<a id="back_to_top" href="#" class="on">
+		<span class="fa-stack">
+		<i class="fa fa-arrow-up" style=""></i>
+		</span>
+	</a>
+	<div class="footer">
+		<div class="linha">
+			<footer>
+				<div class="coluna col12">
+					<a href="https://www.facebook.com/jonatanbandeir1" target="_blank"/><img title="Facebook" src="_image/2986194_facebook_media_social.png"/></a>
+					<a href="https://plus.google.com/u/0/+JonatanJojoBandeira" target="_blank"/><img title="Google +" src="_image/2986196_google_media_plus_social.png"/></a>
+					<a href="https://www.instagram.com/jonatanbandeira/" target="_blank"/><img title="Instagram" src="_image/2986198_instagram_media_social.png"/></a>
+					<a href="https://www.pinterest.com/day2dayapparel/" target="_blank"/><img title="Pinterest" src="_image/2986201_logo_media_pintrest_social.png"/></a>
+					<a href="https://twitter.com/jonatanbanderas" target="_blank"/><img title="Twitter" src="_image/2986205_media_social _twitter.png"/></a>
+					<a href="https://medium.com/@jonatanbandeira" target="_blank"/><img title="Medium" src="_image/2986208 _logo_media_social_vk.png"/></a>
+					<a href="https://www.youtube.com/channel/UCOCIpGAK6EeMWlJY2m4oWOw?view_as=subscriber" target="_blank"/><img title="You Tube" src="_image/2986210 _media_social_youtube.png"/></a>
+				</div>
+			</footer>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="linha">
+			<footer>
+				<div class="coluna col12">
+					<span>&copy; 2018 - Jonatan Bandeira - Desenvolvimento web</span>
+				</div>
+			</footer>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		//Menu toggle-button
+
+		$(document).ready(function () {
+			$(".menu-icon").on("click", function() {
+				$("nav ul").toggleClass("showing");
+			});
+		});
+
+		//scrolling Effect
+
+		$(window).on("scroll", function() {
+			if($(window).scrollTop()) {
+				$('nav').addClass('black');	
+			}
+			else{
+				$('nav').removeClass('black');
+			}
+		})
+	</script>	
+</body>
+</html>
